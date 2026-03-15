@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "enum_ressource",
+    "function",
+    "guessing_game",
+    "rectangles",
+    "restaurant",
+    "struct_enum",
+    "variables",
+]
