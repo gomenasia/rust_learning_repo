@@ -23,7 +23,7 @@ fn main() {
     let truncated = -5 / 3; // Results in -1
 
     // remainder
-    let remainder = 43 % 5
+    let remainder = 43 % 5;
 
     let t = true;
 

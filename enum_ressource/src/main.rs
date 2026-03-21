@@ -62,7 +62,7 @@ fn describe_state_quarter(coin: Coin) -> Option<String> {
 fn main() {
 
     let mut count = 0;
-    if let Coin::Quarter(state) = coin {
+    if let Coin::Quarter(state) = Coin {
         println!("State quarter from {state:?}!");
     } else {
         count += 1;

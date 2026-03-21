@@ -3,9 +3,9 @@ fn main() {
     let hello = String::from("Hello World!");
     let rep = first_word(&hello);
 
-    println!("{}", rep)
+    println!("{}", rep);
 
-    let mut five = another_function
+    let mut five = another_function(4);
 }
 
 fn another_function(x: i32) {
