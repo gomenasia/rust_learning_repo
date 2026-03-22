@@ -1,6 +1,6 @@
 [workspace]
 resolver = "3"
-members = ["collection",
+members = [
     "enum_ressource",
     "function",
     "guessing_game",
@@ -8,5 +8,6 @@ members = ["collection",
     "restaurant",
     "struct",
     "variables",
-    "collection",
+    "collection", 
+    "error_handling",
 ]
